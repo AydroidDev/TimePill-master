@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.CenterAnimation">
+        <!--<item name="android:windowBackground">@drawable/ll_face_logo</item>-->
+    </style>
+
+    <style name="LoginButton" parent="Theme.AppCompat">
+        <item name="colorControlHighlight">@color/indigo_500</item>
+        <item name="colorButtonNormal">@color/pink_200</item>
+    </style>
+    <style name="RegisterButton" parent="Theme.AppCompat">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorPrimaryLight</item>
+    </style>
+    <style name="FlatButton" parent="Theme.AppCompat">
+        <item name="colorControlHighlight">@color/red</item>
+        <item name="colorButtonNormal">@color/red_dark</item>
+    </style>
+</resources>

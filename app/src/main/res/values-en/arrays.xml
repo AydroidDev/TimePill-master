@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="picture_menu">
+        <item>Share</item>
+        <item>Save</item>
+    </string-array>
+    <string-array name="diary_menu_my">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="pref_list_genders_values">
+        <item>m</item>
+        <item>w</item>
+        <item>n</item>
+    </string-array>
+    <string-array name="draw_tools">
+        <item>PEN</item>
+        <item>LINE</item>
+        <item>ARROW</item>
+        <item>RECTANGLE</item>
+        <item>CIRCLE</item>
+        <item>ELLIPSE</item>
+    </string-array>
+    <string-array name="draw_mode">
+        <item>DRAW</item>
+        <item>TEXT</item>
+        <item>ERASER</item>
+    </string-array>
+    <string-array name="create_diary_hints">
+        <item>What\'s your feeling now</item>
+        <item>What\'s up</item>
+        <item>What\'s wrong</item>
+        <item>Anything new?</item>
+        <item>Any idea today?</item>
+        <item>How is your day?</item>
+        <item>Have read any books?</item>
+        <item>Have seen any movies?</item>
+        <item>Have seen any animations?</item>
+    </string-array>
+    <string-array name="actions">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

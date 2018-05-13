@@ -1,0 +1,315 @@
+<resources>
+    <string name="app_name">时间胶囊</string>
+    <string name="test_diary" translatable="false">
+        你必须实现onCreate方法来处理应用的一些基本启动逻辑，它只在activity的整个生命周期中执行一次。比如，定义UI，初始化一些类级别的变量。onCreate执行后，onStart和onResume会立刻紧接着被执行，然后activity会停留在onResume，直到发生改变状态的事件，比如接电话，或者跳到别的activity、屏幕关闭。
+        相比于生命周期的第一个回调onCreate，最后一个被调用的是onDestroy。系统调用它作为你activity实例被完全从内存中移除的标志。大部分app
+        不需要实现这个方法，因为本地类引用(local class
+        references)和activity一同被销毁，而你的activity应当在onPause和onStop中做大部分清理工作。
+    </string>
+
+    <string name="test_comment" translatable="false">哈哈哈，说的不错，表示支持~~~~</string>
+    <string name="share_to">分享</string>
+    <string name="is_loading">正在加載，喝杯茶吧~</string>
+    <string name="get_profile_failed">此人过于神秘，获取信息失败…</string>
+    <string name="delete_comment">删除回复</string>
+    <string name="comment_failed">评论失败</string>
+    <string name="retry">重试</string>
+    <string name="get_diary_failed">啊哦，地球上找不到该日记</string>
+    <string name="delete_comment_failed">回复删除失败</string>
+    <string name="copy">复制</string>
+    <string name="copyed">内容已复制~</string>
+    <string name="report">举报</string>
+    <string name="reply_to_xxx">回复 %s 的评论：</string>
+    <string name="no_text_entered">O__O 您还没说话呢</string>
+    <string name="speak_more">多说点什么吧~</string>
+    <string name="total_comments">共 %d 条评论</string>
+    <string name="xxx_copied">%s 已复制</string>
+    <string name="picture_load_fail">图片太神秘了，无法加载</string>
+    <string name="save_img_success">图片已保存</string>
+    <string name="save_img_failed">由于神秘力量，图片保存失败</string>
+
+    <string-array name="comment_menu">
+        <item>复制</item>
+        <item>分享</item>
+        <item>举报</item>
+    </string-array>
+    <string-array name="comment_menu_my">
+        <item>复制</item>
+        <item>分享</item>
+        <item>举报</item>
+        <item>删除回复</item>
+    </string-array>
+
+    <string name="action_settings">设置</string>
+    <string name="timepill_url" translatable="false">http://www.timepill.net/</string>
+    <string name="reply_to_diary">回复此日记…</string>
+    <string name="my_diary">我的日记</string>
+    <string name="my_notebook">日记本</string>
+    <string name="login_failed">登录失败，请稍后再试</string>
+    <string name="my_following_diary">关注日记</string>
+    <string name="my_following">关注的人</string>
+
+    <string name="cant_get_following">无法获取您关注的用户</string>
+    <string name="no_today_diary">没有最新日记</string>
+    <string name="no_notebook">没有公开日记本</string>
+    <string name="follow_success">关注成功~</string>
+    <string name="unfollow_success">已取消关注</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+    <string name="x_diaries_updated">更新了 %d 条日记</string>
+    <string name="view">查看</string>
+    <string name="my_notifications">通知</string>
+    <string name="my_followers">关注我的用户</string>
+    <string name="cant_get_notifications">无法获取最近的通知~</string>
+    <string name="cant_connect_net">无法连接网络</string>
+    <string name="no_new_notification">没有新消息</string>
+    <string name="edit">编辑</string>
+    <string name="privacy_me_only">仅自己可见</string>
+    <string name="privacy_public">大家可见</string>
+    <string name="privacy_property">可见性</string>
+    <string name="create_notebook">创建日记本</string>
+    <string name="expire_time">过期时间：%s</string>
+    <string name="fail_to_create_notebook">创建日记本失败</string>
+    <string name="edit_notebook">编辑日记本</string>
+    <string name="update_success">更新成功</string>
+    <string name="create_notebook_success">日记本《%s》创建成功</string>
+    <string name="update_failed">更新失败</string>
+
+    <string name="content_saved_as_draft">内容已存为草稿</string>
+    <string name="unable_upload_picture">如果您拒绝权限，临时图片无法创建和上传</string>
+    <string name="fail_read_pictures">读取图片失败</string>
+    <string name="action_canceled">操作已取消</string>
+    <string name="cover_upload_failed">封面图上传失败</string>
+    <string name="cover_upload_success">封面图上传成功</string>
+    <string name="create_diary">写日记</string>
+    <string name="notebook_subject_hint">主题</string>
+    <string name="notebook_desc_hint">日记本描述 (可选)</string>
+    <string name="action_send">发表</string>
+    <string name="unable_to_find_notebook">未找到该笔记本，请稍后重试</string>
+    <string name="create_diary_hint">今天有什么想法呢？</string>
+    <string name="unable_to_fetch_notebooks">未获取到日记本，可能是网络断开或没有有效的日记本</string>
+    <string name="pick_picture">选择图片</string>
+    <string name="choose_notebook_hint">请选择一个日记本</string>
+    <string name="create_diary_failed">发送日记失败，请稍后重试</string>
+    <string name="create_diary_success">日记已创建</string>
+    <string name="delete_diary">删除日记</string>
+    <string name="content_copied">内容已复制</string>
+    <string name="diary_delete_failed">日记刪除失败</string>
+    <string name="diary_delete_success">日记已删除</string>
+    <string name="edit_diary">编辑日记</string>
+    <string name="cant_get_diary">无法获得日记内容，请稍后重试</string>
+    <string name="diary_update_success">日记已更新</string>
+    <string name="userAccount">用户名（邮箱）</string>
+    <string name="password">密码</string>
+    <string name="name_or_psw_is_empty">用户名或密码不能为空哦</string>
+    <string name="login_success">登录成功</string>
+    <string name="login">登录</string>
+    <string name="register">注册胶囊</string>
+    <string name="registerAction">注册</string>
+    <string name="register_failed">注册失败</string>
+    <string name="register_success">注册成功，正在登录…</string>
+
+    <string name="pref_header_profile">个人资料</string>
+    <string name="pref_name">昵称</string>
+    <string name="pref_default_display_name">输入你的昵称</string>
+
+
+    <string-array name="pref_list_genders">
+        <item>男</item>
+        <item>女</item>
+        <item>不显示</item>
+    </string-array>
+
+    <string name="pref_header_notifications">通知</string>
+    <string name="pref_title_new_message_notifications">通知提醒</string>
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_ringtone_silent">静音</string>
+    <string name="pref_title_vibrate">震动</string>
+    <string name="pref_intro">个人简介</string>
+    <string name="pref_avatar">头像</string>
+    <string name="pref_default_display_intro">输入你的个人简介</string>
+    <string name="nickName">昵称</string>
+    <string name="nextAction">下一步</string>
+    <string name="please_enter_account_info">请输入账号信息</string>
+    <string name="app_slogan" translatable="false">凌晨零点，集体失忆</string>
+    <string name="secret_mode_closed" translatable="false">隐藏模式已关闭</string>
+    <string name="secret_mode_opened" translatable="false">隐藏模式已开启</string>
+    <string name="clear_finished">清理完成</string>
+    <string name="clear_cache_failed">注销失败，请到应用中手动清除数据</string>
+    <string name="email_not_install">未安装邮件客户端</string>
+    <string name="version">版本号</string>
+    <string name="tips">提示</string>
+    <string name="tips_content">- 任意地方点击标题可跳转到顶部\n- 资料页点击头像可以发私信</string>
+    <string name="about_me">关于我</string>
+    <string name="about_me_description">我是个热爱 Google 的 Android 开发者，现在上海，如果有好的职位可以推荐给我~</string>
+    <string name="my_email" translatable="false">danteandroi@gmail.com</string>
+    <string name="license" translatable="false">License</string>
+    <string name="license_description">本APP已得到站长授权。如有任何建议请直接联系我</string>
+    <string name="set_log_off_hint">将清除所有缓存数据。当前缓存为</string>
+    <string name="alipay_not_found">未找到支付宝，已复制微信账号</string>
+    <string name="wechat" translatable="false">lightear</string>
+    <string name="set_log_off">注销登录</string>
+    <string name="about">关于</string>
+    <string name="set_check_version">检查更新</string>
+    <string name="feedback_description">如果你有好的idea或建议，赶快说出来吧</string>
+    <string name="set_feedback">应用反馈</string>
+    <string name="app_info">应用信息</string>
+    <string name="app">应用</string>
+    <string name="profile">个人资料</string>
+    <string name="update_user_failed">更新用户信息失败</string>
+    <string name="update_user_success">更新用户信息成功</string>
+    <string name="pref_gender">性别</string>
+    <string name="cant_get_login_data">获取不到登录信息，请清除APP数据后重新登录</string>
+    <string name="go_setting">去设置</string>
+    <string name="fail_to_upload_avatar">更新头像失败</string>
+    <string name="success_to_upload_avatar">更新头像成功</string>
+    <string name="draft_restored">已恢复草稿内容</string>
+    <string name="subject_cant_be_empty">标题不能为空</string>
+    <string name="subject_is_long">标题有点长哦</string>
+    <string name="no_valid_notebook">没有可用的日记本，快去创建一个吧~</string>
+    <string name="all_marked_readed">已全部标为已读</string>
+    <string name="detect_new_version">发现新版本</string>
+    <string name="update_message">更新内容: \n\n %s</string>
+    <string name="update">更新</string>
+    <string name="share_app_description">时间胶囊：http://coolapk.com/apk/com.dante.diary</string>
+    <string name="donate">捐赠</string>
+    <string name="donate_description">本App是个人时间的成果，您的支持会让它变得越来越好</string>
+    <string name="leave_app">再按一次返回键退出胶囊</string>
+    <string name="set_my_home">我的作为首页</string>
+    <string name="set_my_home_desc">使用自己的资料页作为首页</string>
+    <string name="customize">个性化</string>
+    <string name="nickname_too_short">昵称太短啦</string>
+    <string name="password_cant_empty">密码不能为空</string>
+    <string name="username_cant_empty">用户名不能为空</string>
+    <string name="say_more">再说点什么吧</string>
+    <string name="draw_clear">清空</string>
+    <string name="draw_save">保存</string>
+    <string name="draw_mode">模式</string>
+    <string name="draw_brush">形状</string>
+    <string name="draw_background">背景图</string>
+    <string name="draw">画图</string>
+    <string name="draw_attrs">画板属性</string>
+    <string name="redo">重做</string>
+    <string name="undo">撤销</string>
+    <string name="stroke_width">画笔宽度: %1$d</string>
+    <string name="opacity">透明度: %1$d</string>
+    <string name="font_size">字体大小: %1$d</string>
+    <string name="chose_draw_tool">选择形状</string>
+    <string name="choose_draw_mode">选择模式</string>
+    <string name="draw_saved_success">图画保存成功</string>
+    <string name="draw_saved_canceled">保存已取消</string>
+    <string name="file_name">文件名</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="remove">移除</string>
+    <string name="delete">删除</string>
+    <string name="delete_photo_hint">确定要移除图片吗？</string>
+    <string name="set_short_splash_desc">使用简短的启动动画</string>
+    <string name="set_short_splash">简化启动页</string>
+    <string name="input_text">输入文字</string>
+    <string name="confirm">确定</string>
+    <string name="paint_style">画笔风格</string>
+    <string name="fill">填满颜色</string>
+    <string name="stroke">线条</string>
+    <string name="draw_exit_message">确定要退出画图而不保存？</string>
+    <string name="exit">退出</string>
+    <string name="pattern_lock_psw_wrong">手势密码错误</string>
+    <string name="set_pattern_lock">开启密码</string>
+    <string name="reset">重置</string>
+    <string name="pattern_cant_be_empty">手势不能为空</string>
+    <string name="set_pattern_lock_title">设置手势密码</string>
+    <string name="check_old_pattern">验证旧手势</string>
+    <string name="pattern_check_failed">手势验证失败，再仔细想想？</string>
+    <string name="save_my_home_hint">已设我的界面为主页，下次进入时生效</string>
+    <string name="commit">提交</string>
+    <string name="intro_hint">说说你自己吧</string>
+    <string name="time_order_reverse">时间倒序</string>
+    <string name="time_order_normal">时间顺序</string>
+    <string name="pref_id">用户ID</string>
+    <string name="id_has_been_copied">用户id已复制</string>
+    <string name="feedback_hint">有什么问题或者建议？</string>
+    <string name="thx_for_feedback">感謝您的反馈~ 您的支持会让app越来越好</string>
+    <string name="go_market">去市场</string>
+    <string name="share_url" translatable="false">http://coolapk.com/apk/com.dante.diary</string>
+    <string name="diary_has_no_comment">该日记没有评论。</string>
+    <string name="pm">私信</string>
+    <string name="unspport_message_type">暂不支持此消息类型</string>
+    <string name="chat">私信</string>
+    <string name="edit_topic_diary">创建话题日记</string>
+    <string name="hint_enter_message">输入内容</string>
+    <string name="message_sent">已发送</string>
+    <string name="conversation_is_empty">对话列表为空</string>
+    <string name="cancel_followed_failed">取消被关注失败</string>
+    <string name="no_topic_today">今天没有话题哦</string>
+    <string name="cant_pm_to_self">不能给自己发私信，除非你有多重人格:P</string>
+    <string name="cancel_followed_message">取消他对你的关注？他将无法在关注的日记里看到你的日记。</string>
+    <string name="cancel_followed">取消关注</string>
+    <string name="nope">不用了</string>
+    <string name="timepill_user_hint">该用户也使用时间胶囊客户端，您可以点击右上角发送私信</string>
+    <string name="unfollow_message">确定要取消对其关注？</string>
+    <string name="dont_hint_update">不再提示</string>
+    <string name="notification_hint">关闭后收到私信通知时没有声音，也不会显示通知小红点</string>
+    <string name="notification_vibrate_hint">收到私信时会震动</string>
+    <string name="night_mode">夜间</string>
+    <string name="day_mode">白天</string>
+    <string name="auto_night_mode">自动夜间模式</string>
+    <string name="android_version_is_old">Android系统版本过低，不支持此功能</string>
+    <string name="time_pill_open">打开胶囊</string>
+    <string name="time_pill_add">添加时间胶囊</string>
+    <string name="go_wechat">去微信</string>
+    <string name="timepill_key_copied">KEY已复制，是否分享？</string>
+    <string name="your_name">您的名字</string>
+    <string name="open_time">开启时间 (此时间前无法打开)</string>
+    <string name="open_timepill_hint">提示信息 (开启时间前打开，会看到此信息)</string>
+    <string name="time_pill_not_expired">该时间胶囊在 %s 前不可查看。提示信息：</string>
+    <string name="xxx_says_at_xxx">在 %s 对你说：</string>
+    <string name="cant_find_timepill">嗯…… 地球上找不到这个时间胶囊</string>
+    <string name="timepill_created">时间胶囊创建成功，KEY已复制到粘贴板</string>
+    <string name="I_created_a_timepill">我创建了一个时间胶囊，KEY：%s, 快去看看</string>
+    <string name="input_key">输入包含时间胶囊KEY的内容，APP会自动读取KEY</string>
+    <string name="extract">提取</string>
+    <string name="what_is_timepill">什么是时间胶囊？</string>
+    <string name="invalid_timepill_key">无效的KEY，请重新输入</string>
+    <string name="input_correct_opentime">请输入正确的开启时间</string>
+    <string name="opentime_too_early">开启时间过早</string>
+    <string name="timepill_content_hint">给将来的自己或TA留下一些话吧</string>
+    <string name="timepill_create_failed">胶囊创建失败</string>
+    <string name="type_hint">打字累了吗？可以试试语音输入法~</string>
+    <string name="got_it">知道了</string>
+    <string name="announcement">公告</string>
+    <string name="use_topic_pic">使用话题图片</string>
+    <string name="report_diary">举报日记</string>
+    <string name="report_success">举报成功</string>
+    <string name="record_success">录音成功</string>
+    <string name="record_failed">录音失败</string>
+    <string name="record_start">录音开始…再次点击结束录音</string>
+    <string name="record_overwrite_hint">将覆盖已有录音，要继续吗</string>
+    <string name="record_new">新建录音</string>
+    <string name="record_too_short">录音太短，将不会上传</string>
+    <string name="record_length">录音时长 %1$d 分 %2$d 秒</string>
+    <string name="remove_record">移除录音？</string>
+    <string name="search_diary">搜索日记</string>
+    <string name="search_diary_hint">输入关键词</string>
+    <string name="search_notebook_diary_hint">在\"%s\"中搜索</string>
+    <string name="search">搜索</string>
+    <string name="fetch_diary_error">啊哦，无法获取日记</string>
+    <string name="new_user_create_notebook_hint">检测到您是新用户\n请先创建一个日记本吧</string>
+    <string name="create_second_hint">设定一个过期时间，每天零点你将「失忆」，在过期时间之前，你无法回顾日记</string>
+    <string name="create_hint">创建你的私人日记</string>
+    <string name="export">导出</string>
+    <string name="export_failed">导出日记本失败，请检查权限</string>
+    <string name="export_success">日记本导出成功~</string>
+    <string name="check">查看</string>
+    <string name="no_explorer_installed">未安装文件管理器！</string>
+    <string name="wechat_not_installed">微信未安装</string>
+    <string name="hongbao">支付宝红包</string>
+    <string name="my_timepills_key">我的时间胶囊</string>
+    <string name="timepill_key_copied_no_share">KEY 已复制</string>
+    <string name="timepills_not_found">没找到您创建的胶囊，可能因为您使用旧版本创建的</string>
+    <string name="my_timepills">我的胶囊</string>
+    <string name="private_notebook">私密</string>
+    <string name="expired">已过期</string>
+    <string name="notExpired">未过期</string>
+    <string name="delete_notebook_failed">删除日记本失败</string>
+    <string name="delete_notebook_hint">确实要删除日记本 %s 吗？</string>
+    <string name="delete_notebook_success">日记本已删除</string>
+</resources>
